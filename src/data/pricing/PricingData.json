@@ -1,0 +1,53 @@
+[
+    {
+        "title": "Standard",
+        "subtitle": "Startup",
+        "yprice": "$499",
+        "yduration": "/yearly",
+        "mprice": "$19.99",
+        "mduration": "/monthly",
+        "facility": [
+            "1 Page Website",
+            "Mobile Responsive",
+            "Branded Template",
+            "Backups, security, hosting",
+            "Basic Support",
+            "30 Day Free Revisions"
+        ],
+        "delay": "100"
+    },
+    {
+        "title": "Professional",
+        "subtitle": "Small Team",
+        "yprice": "$999",
+        "yduration": "/yearly",
+        "mprice": "$29.99",
+        "mduration": "/monthly",
+        "facility": [
+            "Up to 5 Page Website",
+            "Mobile Responsive",
+            "Custom Design",
+            "Backups, security, hosting",
+            "Priority Support",
+            "60 Day Free Revisions"
+        ],
+        "delay": "200"
+    },
+    {
+        "title": "Ultimate",
+        "subtitle": "Large Team",
+        "yprice": "Custom",
+        "yduration": "/yearly",
+        "mprice": "$59.99",
+        "mduration": "/monthly",
+        "facility": [
+            "Unlimited Page Website",
+            "Mobile Responsive",
+            "Full Custom Design",
+            "Backups, security, hosting",
+            "VIP Support",
+            "90 Day Free Revisions"
+        ],
+        "delay": "300"
+    }
+]
