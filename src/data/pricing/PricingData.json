@@ -2,7 +2,7 @@
     {
         "title": "Standard",
         "subtitle": "Startup",
-        "yprice": "$499",
+        "yprice": "$999",
         "yduration": "/yearly",
         "mprice": "$19.99",
         "mduration": "/monthly",
@@ -19,7 +19,7 @@
     {
         "title": "Professional",
         "subtitle": "Small Team",
-        "yprice": "$999",
+        "yprice": "$1999",
         "yduration": "/yearly",
         "mprice": "$29.99",
         "mduration": "/monthly",

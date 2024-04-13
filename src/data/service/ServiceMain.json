@@ -72,7 +72,7 @@
         }
     },
     {
-        "image": "//images/icon/icon-5.png",
+        "image": "/images/icon/icon-5.png",
         "delay": "300",
         "title": "Time-Saving",
         "description": "A website takes care of basic questions like where you're located or when you're open. That way, your team can focus on what matters while keeping customers happy at the same time.",
