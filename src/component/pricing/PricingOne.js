@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import PricingData from "../../data/pricing/PricingData.json";
 import { FaCheck } from "react-icons/fa";
@@ -11,15 +10,21 @@ const PricingOne = () => {
     <>
       <div className="row">
         {getPriceingData.map((data, index) => (
-          <div className="col-lg-4" key={index}>
+          <div className={`col-lg-4 ${data.title === "Professional" ? "popular-tag" : ""}`} key={index}>
+            
             <AnimationOnScroll
               animateIn="fadeInUp"
               animateOnce={true}
               delay={data.delay}
+              className={`${data.title === "Professional" ? "popular" : ""}`}
             >
-              <div className="pricing-table pricing-borderd">
+              <div className={`pricing-table pricing-borderd ${data.title === "Professional" ? "popular-border" : ""}`}>
                 <div className="pricing-header">
-                  <h3 className="title">{data.title}</h3>
+                  <h3
+                    className={`title`}
+                  >
+                    {data.title}
+                  </h3>
                   <span className="subtitle">{data.subtitle}</span>
                   <div className="price-wrap">
                     <div className="yearly-pricing">

@@ -211,3 +211,32 @@
         }
     }
 }
+
+.popular-border {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.popular-border::before {
+    content: "MOST POPULAR";
+    position: absolute;
+    top: -46px;
+    left: 0;
+    height: 50px;
+    line-height: 50px;
+    background:  linear-gradient(135deg, #ffde59, #ff914d);
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    font-weight: 700;
+    vertical-align: text-top;
+    padding: 0 24px;
+    z-index: 1;
+    letter-spacing: 1.25px;
+}
+
+@media only screen and (max-width: 991px) {
+    .col-lg-4.popular-tag {
+        margin-top: 46px;
+    }
+}

@@ -64,6 +64,8 @@ ol.list-style {
 .row {
     margin-left: -15px;
     margin-right: -15px;
+    padding-top: 32px;
+    position: relative;
     >[class*="col"] {
         padding-left: 15px;
         padding-right: 15px;
@@ -76,6 +78,10 @@ ol.list-style {
             padding-right: 0;
         }
     }
+}
+
+.popular.animate__animated.fadeInUp {
+    position: relative;
 }
 
 @media only screen and (min-width: 1400px) {
